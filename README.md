@@ -51,7 +51,7 @@ Ground
 Around 20 ms. We could add a beep along with each blink. The beep would prove that the blinking is working.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-[Code for custom blinking program]((https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/custom_blink.ino)
+[Code for custom blinking program](https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/custom_blink.ino)
 
 ### 2. Blink your LED
 
