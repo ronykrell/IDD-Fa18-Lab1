@@ -9,8 +9,11 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
- Red - Red - Dark Brown - Brown - Light Brown
+
+ Red / Light Brown - Red / Light Brown - Black - Black - Dark Brown
+
 **b. What do you have to do to light your LED?**
+
 ![Push Button picture](https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/push_button.JPG "Push Button")
 
 Connect the 5V line to one end of the push button. Connect the other end to the LED and the 270 Ohm resistor. Finally, connect the other end of the resistor to the ground line.
@@ -57,20 +60,25 @@ Around 20 ms. We could add a beep along with each blink. The beep would prove th
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[Video Link] (https://www.youtube.com/watch?v=qTb3eDwNrps&feature=youtu.be)
 
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+Yes, the potentiometer acts as a voltage divider - increasing the resistance and decreasing the LED voltage 
+
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+Change the LED variable to 11 so that signal goes to pin 11.
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
+ The analogWrite() uses PWM to create a fading effect on the LED on certain outputs. digitalWrite doesn't use PWM.
 
 ## Part F. FRANKENLIGHT!!!
 
