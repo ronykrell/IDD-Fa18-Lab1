@@ -47,6 +47,7 @@ Had to modify the delay commands in the loop.
 
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+
 Ground
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
@@ -60,8 +61,7 @@ Around 20 ms. We could add a beep along with each blink. The beep would prove th
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[Video Link] (https://www.youtube.com/watch?v=qTb3eDwNrps&feature=youtu.be)
-
+[Video Link](https://www.youtube.com/watch?v=qTb3eDwNrps)
 
 ## Part D. Manually fade an LED
 
