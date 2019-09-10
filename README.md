@@ -9,9 +9,11 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
- 
+ Red - Red - Dark Brown - Brown - Light Brown
 **b. What do you have to do to light your LED?**
+![Push Button picture](https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/push_button.JPG "Push Button")
 
+Connect the 5V line to one end of the push button. Connect the other end to the LED and the 270 Ohm resistor. Finally, connect the other end of the resistor to the ground line.
 
 ## Part C. Blink a LED using Arduino
 
@@ -19,14 +21,37 @@
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+Had to change LED_BUILTIN to 9 
+`
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(9, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(9, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+`
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+Had to modify the delay commands in the loop.
+
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+Ground
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
-**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+Around 20 ms. We could add a beep along with each blink. The beep would prove that the blinking is working.
 
+**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+[Code for custom blinking program]((https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/custom_blink.ino)
 
 ### 2. Blink your LED
 
