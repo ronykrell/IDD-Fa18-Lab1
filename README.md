@@ -82,22 +82,37 @@ Change the LED variable to 11 so that signal goes to pin 11.
 
 ## Part F. FRANKENLIGHT!!!
 
-### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+### 1. Take apart your electronic device, and draw a schematic of what is inside.
+![System Diagram picture](https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/system_diagram.png "System Diagram")
+![Device Before Opening picture](https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/device_before.JPG "Device Before Opening")
+![Device After Opening picture](https://github.com/ronykrell/IDD-Fa18-Lab1/blob/master/device_after.JPG "Device After Opening")
+
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
+Yes, the microcontroller on the device is transforming the signal from the camera into a file, and saving that file in an SD card. 
+
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+
+Yes, the device has a camera sensor that connects to the main circuitboard. The information goes to the microcontroller which saves it on the SD card.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+The device is powered by a battery. The battery can be charged using the USB input on the device. It uses 5V DC.
+
 **d. Is information stored in your device? Where? How?**
 
+Yes, information stored on SD card.
+
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
+
+Hijacked power both at LEDs and at the battery terminals to power an LED. 
 
 **Describe what you did here.**
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
+[Frankenlight Video](https://www.youtube.com/watch?v=k_3w_1GnACM&feature=youtu.be)
 
 **Include any schematics or photos in your lab write-up.**
