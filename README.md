@@ -93,11 +93,9 @@ Yes, information stored on SD card.
 
 Hijacked power both at LEDs and at the battery terminals to power an LED. 
 
-**Describe what you did here.**
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
+
 [Frankenlight Video](https://www.youtube.com/watch?v=k_3w_1GnACM&feature=youtu.be)
 
-**Include any schematics or photos in your lab write-up.**
